@@ -1,4 +1,4 @@
-# SASSPractice
+# SASS Practice
 this repo is for SASS Practice
 
 # Prerequisite
