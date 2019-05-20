@@ -4,6 +4,10 @@
   "description": "this repo is for SASS Practice",
   "main": "index.js",
   "scripts": {
+    "start": "sass source/scss:build/scss --style compressed",
+    "scss": "sass --watch source/scss:build/scss",
+    "startsass": "sass source/sass:build/sass",
+    "sasswatch": "sass --watch source/sass:build/sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,9 +22,6 @@
   },
   "homepage": "https://github.com/ashishmangla0/SassPractice#readme",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2",
-    "node-sass": "^4.12.0",
     "sass": "^1.20.1"
   }
 }
